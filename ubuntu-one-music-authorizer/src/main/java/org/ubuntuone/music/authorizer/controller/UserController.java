@@ -1,4 +1,4 @@
-package com.talentua.jersey.controller;
+package org.ubuntuone.music.authorizer.controller;
 
 import java.util.List;
 
@@ -10,8 +10,9 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import com.talentua.jersey.model.Usuarios;
-import com.talentua.jersey.service.UserService;
+import org.ubuntuone.music.authorizer.model.Usuarios;
+import org.ubuntuone.music.authorizer.service.UserService;
+
 
 @RequestScoped
 @Path("/user")

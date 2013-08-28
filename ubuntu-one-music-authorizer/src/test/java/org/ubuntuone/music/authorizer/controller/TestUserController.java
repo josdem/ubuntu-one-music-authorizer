@@ -1,4 +1,4 @@
-package com.talentua.jersey.controller;
+package org.ubuntuone.music.authorizer.controller;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
@@ -10,9 +10,10 @@ import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.ubuntuone.music.authorizer.controller.UserController;
+import org.ubuntuone.music.authorizer.model.Usuarios;
+import org.ubuntuone.music.authorizer.service.UserService;
 
-import com.talentua.jersey.model.Usuarios;
-import com.talentua.jersey.service.UserService;
 
 public class TestUserController {
 

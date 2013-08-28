@@ -1,12 +1,13 @@
-package com.talentua.jersey.service;
+package org.ubuntuone.music.authorizer.service;
 
 import java.util.List;
 
 import javax.ejb.Stateless;
 import javax.inject.Inject;
 
-import com.talentua.jersey.dao.UserDao;
-import com.talentua.jersey.model.Usuarios;
+import org.ubuntuone.music.authorizer.dao.UserDao;
+import org.ubuntuone.music.authorizer.model.Usuarios;
+
 
 @Stateless
 public class UserService {

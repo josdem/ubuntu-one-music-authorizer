@@ -1,4 +1,4 @@
-package com.talentua.jersey.controller;
+package org.ubuntuone.music.authorizer.controller;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.FormParam;

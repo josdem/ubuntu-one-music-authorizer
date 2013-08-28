@@ -1,4 +1,4 @@
-package com.talentua.jersey.dao;
+package org.ubuntuone.music.authorizer.dao;
 
 import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
@@ -14,9 +14,9 @@ import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
+import org.ubuntuone.music.authorizer.dao.UserDao;
+import org.ubuntuone.music.authorizer.model.Usuarios;
 
-import com.talentua.jersey.dao.UserDao;
-import com.talentua.jersey.model.Usuarios;
 
 public class TestUserDao {
 

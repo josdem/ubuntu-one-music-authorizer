@@ -1,4 +1,4 @@
-package com.talentua.jersey.controller;
+package org.ubuntuone.music.authorizer.controller;
 
 import javax.ejb.EJB;
 import javax.enterprise.context.RequestScoped;
@@ -10,9 +10,9 @@ import javax.ws.rs.core.MediaType;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.ubuntuone.music.authorizer.model.Usuarios;
+import org.ubuntuone.music.authorizer.service.UserService;
 
-import com.talentua.jersey.model.Usuarios;
-import com.talentua.jersey.service.UserService;
 
 @RequestScoped
 @Path("/query")

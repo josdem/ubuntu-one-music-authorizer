@@ -1,8 +1,9 @@
-package com.talentua.jersey.controller;
+package org.ubuntuone.music.authorizer.controller;
 
 import javax.ws.rs.core.MultivaluedMap;
 
 import org.junit.Test;
+import org.ubuntuone.music.authorizer.controller.PostController;
 
 import com.sun.jersey.core.util.MultivaluedMapImpl;
 

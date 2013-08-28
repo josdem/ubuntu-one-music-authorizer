@@ -1,4 +1,4 @@
-package com.talentua.jersey.dao;
+package org.ubuntuone.music.authorizer.dao;
 
 import java.util.List;
 
@@ -7,7 +7,8 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
 
-import com.talentua.jersey.model.Usuarios;
+import org.ubuntuone.music.authorizer.model.Usuarios;
+
 
 @Resource
 public class UserDao {

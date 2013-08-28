@@ -3,7 +3,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.team</groupId>
-    <artifactId>talentua-jersey</artifactId>
+    <artifactId>ubuntu-one-music-authorizer</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>middleware</name>
@@ -85,7 +85,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>talentua-jersey</finalName>
+		<finalName>ubuntu-one-music-authorizer</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
