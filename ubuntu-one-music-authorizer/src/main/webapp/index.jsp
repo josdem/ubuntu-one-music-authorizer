@@ -18,12 +18,12 @@
 			}
 			.center {
 			    position: absolute;
-			    width: 600px;
+			    width: 800px;
 			    height: 200px;
 			    top: 50%;
 			    left: 50%;
 			    margin-top: -25px;
-			    margin-left: -50px;
+			    margin-left: -300px;
 			    font-size: x-large;
 			}
         </style>

@@ -22,7 +22,7 @@ public class AuthorizerController {
 	@GET
 	@Path("/auth")
 	@Produces(MediaType.TEXT_HTML)
-	public Viewable getQuery(@QueryParam("oauth_verifier") int oauthVerifier) {
+	public Viewable getQuery(@QueryParam("oauth_verifier") String oauthVerifier) {
 		log.info("oauthVerifier: " + oauthVerifier);
 		return new Viewable("/index.jsp", oauthVerifier);	
 	} 
