@@ -8,11 +8,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        User: ${users.user.nombre}
-        <form action="http://josdem-inspiron-5420:7171/talentua-jersey/rest/post/multi" method="POST">
-			First name: <input type="text" name="firstname"><br>
-			Last name: <input type="text" name="lastname"><br>
-			<input type="Submit" value="Enviar">
-		</form>
+        Hello World: ${it}
     </body>
 </html>
