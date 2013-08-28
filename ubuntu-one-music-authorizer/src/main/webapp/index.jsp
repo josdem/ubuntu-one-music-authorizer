@@ -5,9 +5,32 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Ubuntu One Music Authorizer</title>
+        
+        <style type="text/css">
+        	.fullscreenDiv {
+			    width: 100%;
+			    height: auto;
+			    bottom: 0px;
+			    top: 0px;
+			    left: 0;
+			    position: absolute;
+			}
+			.center {
+			    position: absolute;
+			    width: 600px;
+			    height: 200px;
+			    top: 50%;
+			    left: 50%;
+			    margin-top: -25px;
+			    margin-left: -50px;
+			    font-size: x-large;
+			}
+        </style>
     </head>
     <body>
-        Hello World: ${it}
+    	<div class='fullscreenDiv'>
+    		<div class="center">Oauth Verifier Code: ${it}</div>
+		</div>
     </body>
 </html>

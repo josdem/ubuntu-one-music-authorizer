@@ -22,9 +22,9 @@ public class AuthorizerController {
 	@GET
 	@Path("/auth")
 	@Produces(MediaType.TEXT_HTML)
-	public Viewable getQuery(@QueryParam("userId") int userId) {
-		log.info("userId: " + userId);
-		return new Viewable("/index.jsp", userId);	
+	public Viewable getQuery(@QueryParam("oauth_verifier") int oauthVerifier) {
+		log.info("oauthVerifier: " + oauthVerifier);
+		return new Viewable("/index.jsp", oauthVerifier);	
 	} 
 
 }
